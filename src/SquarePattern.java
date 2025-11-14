@@ -9,8 +9,9 @@
 
 public class SquarePattern {
         public static void main(String arg[]) {
-                for (int i = 0; i < 4; i++) {
-                        for (int j = 0; j < 5; j++) {
+                int n = 5;
+                for (int row = 0; row < n; row++) {
+                        for (int col = 0; col < n; col++) {
                                 System.out.print("*");
                         }
                         System.out.println();

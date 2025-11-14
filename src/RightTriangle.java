@@ -11,8 +11,9 @@
 
 public class RightTriangle {
     public static void main(String arg[]) {
-        for (int i = 0; i < 5; i++) {
-            for (int j = 0; j <= i; j++) {
+        int n = 5;
+        for (int row = 0; row < n; row++) {
+            for (int col = 0; col <= row; col++) {
                 System.out.print("*");
             }
             System.out.println();

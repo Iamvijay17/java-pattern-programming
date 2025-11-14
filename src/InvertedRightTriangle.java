@@ -11,8 +11,8 @@
 public class InvertedRightTriangle {
     public static void main(String arg[]) {
         int n = 5;
-        for (int i = 0; i < n; i++) {
-            for (int j = i; j < n; j++) {
+        for (int row = 0; row < n; row++) {
+            for (int col = row; col < n; col++) {
                 System.out.print("*");
 
             }
